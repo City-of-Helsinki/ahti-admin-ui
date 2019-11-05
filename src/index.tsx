@@ -5,9 +5,14 @@ import App from './domain/app/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 
-
 const AppWrapper: React.FC = () => {
-    return (<Router><Switch><App /></Switch></Router>);
+  return (
+    <Router>
+      <Switch>
+        <App />
+      </Switch>
+    </Router>
+  );
 };
 
 ReactDOM.render(<AppWrapper />, document.getElementById('root'));
