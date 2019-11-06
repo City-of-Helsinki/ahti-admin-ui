@@ -4,6 +4,7 @@ import './index.css';
 import App from './domain/app/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import './domain/i18n/i18n';
 
 const AppWrapper: React.FC = () => {
   return (
