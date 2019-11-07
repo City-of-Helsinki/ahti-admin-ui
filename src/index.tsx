@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './domain/app/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import './domain/i18n/i18n';
+import './assets/styles/main.scss';
 
 const AppWrapper: React.FC = () => {
   return (
