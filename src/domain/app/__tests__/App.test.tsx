@@ -4,6 +4,6 @@ import { shallow } from 'enzyme';
 
 describe('App', () => {
   it('renders without crashing', () => {
-    expect(shallow(<App />)).toMatchSnapshot();
+    expect(shallow(<App />).html()).toMatchSnapshot();
   });
 });
