@@ -1,7 +1,7 @@
 import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import postProcessor from 'i18next-sprintf-postprocessor';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import postProcessor from 'i18next-sprintf-postprocessor';
+import { initReactI18next } from 'react-i18next';
 
 import en from './translations/en.json';
 import fi from './translations/fi.json';

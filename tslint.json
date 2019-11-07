@@ -9,6 +9,7 @@
   ],
   "jsRules": true,
   "rules": {
+    "ordered-imports": true,
     "prettier": true,
     "import-name": false,
     "variable-name": false,
