@@ -3,8 +3,8 @@ import { initReactI18next } from 'react-i18next';
 import postProcessor from 'i18next-sprintf-postprocessor';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import en from '../assets/translations/en.json';
-import fi from '../assets/translations/fi.json';
+import en from './translations/en.json';
+import fi from './translations/fi.json';
 
 i18n
   .use(postProcessor)
