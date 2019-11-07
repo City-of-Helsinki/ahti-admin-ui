@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './app.module.scss';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import styles from './app.module.scss';
 
 const App: React.FC = () => {
   const { t } = useTranslation();
