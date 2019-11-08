@@ -17,11 +17,11 @@ i18n
     },
     lng: 'fi',
     resources: {
-      fi: {
-        translation: fi
-      },
       en: {
         translation: en
+      },
+      fi: {
+        translation: fi
       }
     }
   });
