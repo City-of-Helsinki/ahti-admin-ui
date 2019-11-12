@@ -2,7 +2,6 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 import './assets/styles/main.scss';
 import App from './domain/app/App';
@@ -16,9 +15,7 @@ const client = new ApolloClient({
 const AppWrapper: React.FC = () => {
   return (
     <ApolloProvider client={client}>
-      <Router>
-        <App />
-      </Router>
+      <App />
     </ApolloProvider>
   );
 };
