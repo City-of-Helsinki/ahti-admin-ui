@@ -37,7 +37,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test:ci": "CI=true && yarn test:coverage",
-    "test:coverage": "react-scripts test--coverage",
+    "test:coverage": "react-scripts test --coverage",
     "apollo:codegen": "apollo client:codegen --target=typescript --globalTypesFile='src/__generated__/globalTypes.ts'"
   },
   "eslintConfig": {
