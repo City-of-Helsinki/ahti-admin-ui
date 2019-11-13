@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  app:
+    container_name: ahti-admin-ui
+    build:
+      context: .
+      target: ${DOCKER_TARGET:-development}
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - 3000:3000
+      - 4000:4000
